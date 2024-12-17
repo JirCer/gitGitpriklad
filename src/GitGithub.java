@@ -16,5 +16,11 @@ public class GitGithub {
         return priemerGit;
     }
 
-
+    @Override
+    public String toString() {
+        return "GitGithub{" +
+                "pocetGit=" + pocetGit +
+                ", priemerGit=" + priemerGit +
+                '}';
+    }
 }
